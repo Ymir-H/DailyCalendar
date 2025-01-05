@@ -1,0 +1,139 @@
+:root {
+    --mainColor: #81BFDA;
+  }
+
+.castoro-titling-regular {
+    font-family: "Castoro Titling", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.poly-regular-italic {
+    font-family: "Poly", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+.cormorant-sc-light {
+font-family: "Cormorant SC", serif;
+font-weight: 300;
+font-style: normal;
+}
+  
+.cormorant-sc-regular {
+font-family: "Cormorant SC", serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.cormorant-sc-medium {
+font-family: "Cormorant SC", serif;
+font-weight: 500;
+font-style: normal;
+}
+
+.cormorant-sc-semibold {
+font-family: "Cormorant SC", serif;
+font-weight: 600;
+font-style: normal;
+}
+
+.cormorant-sc-bold {
+font-family: "Cormorant SC", serif;
+font-weight: 700;
+font-style: normal;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+
+.heading{
+    height: 60%;
+    /* border: 1pt black solid; */
+    align-content: center;
+    text-align: center;
+    font-size: 4rem;    
+}
+
+.content{
+    height: 20%;
+    font-size: 1.5rem;
+    text-align: right;
+    padding-right: 20px;
+    
+    /* border: 1pt black solid; */
+}
+.dayFrame{
+    height: 20%;
+}
+
+.backFrame{
+    height: 40rem;
+    width: 40rem;
+    padding: 0px 12px 0px 12px;
+/*   outline-style: solid;
+  outline-color: white;
+  outline-width: 10px; */
+  border: 1.5rem solid var(--mainColor);
+}
+
+
+
+.dayStyle{
+    /* height: 100%; */
+    display: flex;
+    font-size: 8rem;
+    align-content: center;
+    text-align: center;
+    /* border: 5px white solid; */
+    background-color: var(--mainColor);
+    /* padding: 0px; */
+    height: 100%;
+    line-height: 6rem;
+}
+
+.dateStyle{
+    font-size: 2rem;
+    font-style: italic;
+    align-content: center;
+    text-align: right;
+    height: 33%;
+    /* border: 5px white solid; */
+    /* background-color: var(--mainColor); */
+    padding-left: 20px;
+    line-height: 1.5rem;
+}
+
+.monthStyle{
+    font-size: 2rem;
+    font-style: italic;
+    align-content: center;
+    height: 33%;
+    /* border: 5px white solid; */
+    /* background-color: var(--mainColor); */
+    padding-left: 20px;
+    line-height: 1.5rem;
+}
+
+.yearStyle{
+    font-size: 2rem;
+    font-style: italic;
+    align-content: center;
+    height: 34%;
+    /* border: 5px white solid; */
+   /*  background-color: var(--mainColor); */
+    padding-left: 20px;
+    line-height: 1.5rem;
+}
+
+
+.copyright {
+    color: gray;
+    padding-left: 50px;
+  }
